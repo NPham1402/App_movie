@@ -134,7 +134,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Danh sách phim"
-            android:textColor="@color/Brown"
             android:textSize="20dp"/>
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
