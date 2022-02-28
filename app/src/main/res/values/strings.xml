@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">App_Movie</string>
     <string name="login_screen_logo">Đăng nhập</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="the_loai_array">
+        <item>Hài</item>
+        <item>Kinh dỊ</item>
+        <item>Hành động</item>
+        <item>Tình cảm</item>
+    </string-array>
 </resources>
