@@ -31,7 +31,7 @@ public class Login extends AppCompatActivity {
     Button login;
     TextView signup;
     int RC_SIGN_IN=123;
-    CardView Google;
+    CardView Google,phoneLoginForm;
     GoogleSignInClient mGoogleSignInClient;
     private FirebaseAuth auth;
     @Override
@@ -40,7 +40,8 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         email=findViewById(R.id.tv_email);
         password=findViewById(R.id.tv_passowrd);
-        Google=findViewById(R.id.CV_login_with_google);
+        Google=findViewById(R.id.cvGoogleLogin);
+        phoneLoginForm=findViewById(R.id.cvPhoneLogin);
         login=findViewById(R.id.btn_login);
         createrequest();
         signup=findViewById(R.id.tv_signup);
@@ -48,6 +49,12 @@ public class Login extends AppCompatActivity {
         if (auth.getCurrentUser()!=null){
             loadui(auth.getUid());
         }
+        phoneLoginForm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getBaseContext(),PhoneLoginActivity.class));
+            }
+        });
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -94,7 +101,7 @@ public class Login extends AppCompatActivity {
     };
     private void  createrequest(){
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken("573880327975-ago46m5ln4s95elvb2524c4n7i1v8t2s.apps.googleusercontent.com")
+                .requestIdToken(getString(R.string.default_web_client_id))
                 .requestEmail()
                 .build();
 
