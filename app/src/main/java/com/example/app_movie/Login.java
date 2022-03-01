@@ -52,7 +52,7 @@ public class Login extends AppCompatActivity {
         phoneLoginForm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getBaseContext(),PhoneLoginActivity.class));
+                startActivity(new Intent(Login.this,PhoneLoginActivity.class));
             }
         });
         signup.setOnClickListener(new View.OnClickListener() {

@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".SettingFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <ImageButton
         android:layout_width="100dp"
         android:layout_height="100dp"

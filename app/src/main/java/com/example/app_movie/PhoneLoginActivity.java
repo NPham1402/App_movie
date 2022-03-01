@@ -112,7 +112,6 @@ public class PhoneLoginActivity extends AppCompatActivity {
                     Toast.makeText(PhoneLoginActivity.this, "Login success", Toast.LENGTH_SHORT).show();
                     startActivity(new Intent(PhoneLoginActivity.this,MainActivity.class));
                 }
-
             }
         });
     }
