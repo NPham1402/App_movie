@@ -31,12 +31,15 @@ public class film_adapter extends RecyclerView.Adapter<film_adapter.ViewHolder> 
     public film_adapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view= LayoutInflater.from(context).inflate(R.layout.item_film,parent,false);
         return new film_adapter.ViewHolder(view);
+
     }
 
     @Override
     public void onBindViewHolder(@NonNull film_adapter.ViewHolder holder, int position) {
         Film_object film_object=films.get(position);
+        Log.e("run",""+film_object.getUrl_img());
         Glide.with(context).load(film_object.getUrl_img()).into(holder.imgview);
+
     }
 
     @Override
@@ -47,7 +50,7 @@ public class film_adapter extends RecyclerView.Adapter<film_adapter.ViewHolder> 
         ImageView imgview;
         public ViewHolder(@NonNull View view){
             super(view);
-            Log.e("run","140201");imgview=view.findViewById(R.id.view_film);
+           imgview=view.findViewById(R.id.view_film);
         }
     }
 }

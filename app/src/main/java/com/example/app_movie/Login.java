@@ -36,6 +36,10 @@ public class Login extends AppCompatActivity {
     private FirebaseAuth auth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        auth=FirebaseAuth.getInstance();
+        if (auth.getCurrentUser()!=null){
+            loadui(auth.getUid());
+        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         email=findViewById(R.id.tv_email);
@@ -45,10 +49,7 @@ public class Login extends AppCompatActivity {
         login=findViewById(R.id.btn_login);
         createrequest();
         signup=findViewById(R.id.tv_signup);
-        auth=FirebaseAuth.getInstance();
-        if (auth.getCurrentUser()!=null){
-            loadui(auth.getUid());
-        }
+
         phoneLoginForm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -101,7 +102,7 @@ public class Login extends AppCompatActivity {
     };
     private void  createrequest(){
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken(getString(R.string.default_web_client_id))
+                .requestIdToken("573880327975-ago46m5ln4s95elvb2524c4n7i1v8t2s.apps.googleusercontent.com")
                 .requestEmail()
                 .build();
 
@@ -131,8 +132,8 @@ public class Login extends AppCompatActivity {
     }
     void loadui(String id){
         Intent intent=new Intent(getBaseContext(),Main.class);
-        intent.putExtra("id",id);
         startActivity(intent);
+        finish();
     }
     private void firebaseAuthWithGoogle(String idToken) {
         AuthCredential credential = GoogleAuthProvider.getCredential(idToken, null);

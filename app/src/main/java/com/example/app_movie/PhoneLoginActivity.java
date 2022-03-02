@@ -110,7 +110,7 @@ public class PhoneLoginActivity extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
                     Toast.makeText(PhoneLoginActivity.this, "Login success", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(PhoneLoginActivity.this,MainActivity.class));
+                    startActivity(new Intent(PhoneLoginActivity.this,Main.class));
                 }
             }
         });

@@ -59,22 +59,27 @@ RecyclerView recyclerView;
                     public void onComplete(@NonNull Task<QuerySnapshot> task) {
                         if (task.isSuccessful()) {
                             for (QueryDocumentSnapshot document : task.getResult()) {
-                                Log.d("Testdata", document.getId() + " => " + document.getData());
-                                Film_object type= document.toObject(Film_object.class);
 
-                                fo.add(type);
+                                String name= (String) document.getData().get("name");
+                                String description = (String) document.getData().get("description");
+                                String url= (String) document.getData().get("url");
+                                List<String> genre = (List) document.getData().get("genre");
+                                List<String> director = (List) document.getData().get("director");
+                                Log.d("Testdata", document.getId() + " => " +url);
+                                Film_object film_object=new Film_object(director,genre,name,description,url);
+                                fo.add(film_object);
+                                Log.e("count",fo.get(0).getUrl_img()+"");
                             }
                             film_adapter=new film_adapter(fo,getContext());
-
-
+                            LinearLayoutManager llm = new LinearLayoutManager(getContext());
+                            llm.setOrientation(LinearLayoutManager.HORIZONTAL);
+                            recyclerView.setLayoutManager(llm);
+                            recyclerView.setAdapter( film_adapter );
                         } else {
                         }
                     }
                 });
-        LinearLayoutManager llm = new LinearLayoutManager(getContext());
-        llm.setOrientation(LinearLayoutManager.HORIZONTAL);
-        recyclerView.setLayoutManager(llm);
-        recyclerView.setAdapter( film_adapter );
+
     }
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

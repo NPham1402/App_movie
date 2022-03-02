@@ -73,13 +73,13 @@ public class Film_object {
         this.genre = genre;
     }
 
-    public Film_object(List<String>director, List<String> genre, String name, String description, String urlfilm)
+    public Film_object(List<String>director, List<String> genre, String name, String description, String url_img)
     {
         this.description=description;
         this.director=director;
         this.genre=genre;
         this.name=name;
-        this.urlfilm=urlfilm;
+        this.url_img=url_img;
     }
 
 }
