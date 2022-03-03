@@ -26,7 +26,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
 
-public class Login extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
     TextInputEditText email,password;
     Button login;
     TextView signup;
@@ -53,7 +53,7 @@ public class Login extends AppCompatActivity {
         phoneLoginForm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Login.this,PhoneLoginActivity.class));
+                startActivity(new Intent(LoginActivity.this,PhoneLoginActivity.class));
             }
         });
         signup.setOnClickListener(new View.OnClickListener() {
@@ -77,7 +77,7 @@ public class Login extends AppCompatActivity {
                             Toast.LENGTH_SHORT).show();
                 }
                 else{
-                    auth.signInWithEmailAndPassword(email.getText().toString(),password.getText().toString()).addOnCompleteListener(Login.this, new OnCompleteListener<AuthResult>() {
+                    auth.signInWithEmailAndPassword(email.getText().toString(),password.getText().toString()).addOnCompleteListener(LoginActivity.this, new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
 

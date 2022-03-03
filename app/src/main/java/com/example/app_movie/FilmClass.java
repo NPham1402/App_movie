@@ -5,7 +5,7 @@ import java.sql.SQLRecoverableException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Film_object {
+public class FilmClass {
     public String name;
     private String url_img;
     private String urlfilm;
@@ -14,7 +14,7 @@ public class Film_object {
     public String description;
     public String document;
     public List<String> genre;
-    public Film_object(){
+    public FilmClass(){
 
 }
     public String getName() {
@@ -73,7 +73,7 @@ public class Film_object {
         this.genre = genre;
     }
 
-    public Film_object(List<String>director, List<String> genre, String name, String description, String url_img)
+    public FilmClass(List<String>director, List<String> genre, String name, String description, String url_img)
     {
         this.description=description;
         this.director=director;

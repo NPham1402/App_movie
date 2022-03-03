@@ -8,34 +8,26 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.os.RecoverySystem;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.Spinner;
 
 import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
-import com.google.firebase.firestore.CollectionReference;
-import com.google.firebase.firestore.DocumentReference;
-import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
 
-import java.sql.Array;
 import java.util.ArrayList;
 import java.util.List;
 
-public class fg_home extends Fragment {
+public class HomeFragment extends Fragment {
     Spinner spinner;
 FirebaseFirestore firebaseFirestore;
-ArrayList<Film_object>fo;
+ArrayList<FilmClass>fo;
 film_adapter film_adapter;
 RecyclerView recyclerView;
     @Override
@@ -66,8 +58,8 @@ RecyclerView recyclerView;
                                 List<String> genre = (List) document.getData().get("genre");
                                 List<String> director = (List) document.getData().get("director");
                                 Log.d("Testdata", document.getId() + " => " +url);
-                                Film_object film_object=new Film_object(director,genre,name,description,url);
-                                fo.add(film_object);
+                                FilmClass film_class =new FilmClass(director,genre,name,description,url);
+                                fo.add(film_class);
                                 Log.e("count",fo.get(0).getUrl_img()+"");
                             }
                             film_adapter=new film_adapter(fo,getContext());
