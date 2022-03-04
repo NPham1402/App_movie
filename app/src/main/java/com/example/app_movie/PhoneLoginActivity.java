@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
@@ -39,6 +40,7 @@ public class PhoneLoginActivity extends AppCompatActivity {
     String verificationId;
     CardView cvUserLogin,cvGoogleLogin;
     GoogleSignInClient mGoogleSignInClient;
+    TextView tvSignUp;
     int RC_SIGN_IN=123;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,10 +48,17 @@ public class PhoneLoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_phone_login);
         ipPhoneNo=findViewById(R.id.ipPhoneNo);
         ipOTP=findViewById(R.id.ipOTP);
+        tvSignUp=findViewById(R.id.tvSignUp);
         btnGetCode=findViewById(R.id.btnGetCode);
         btnSendCode=findViewById(R.id.btnSendCode);
         cvUserLogin =findViewById(R.id.cvUser_PhoneLoginActivity);
         cvGoogleLogin=findViewById(R.id.cvGoogle_PhoneLoginActivity);
+        tvSignUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getBaseContext(), SignUpActivity.class));
+            }
+        });
         cvUserLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

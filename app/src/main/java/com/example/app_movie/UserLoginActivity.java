@@ -48,7 +48,7 @@ public class UserLoginActivity extends AppCompatActivity {
         cvPhone_UserLoginActivity =findViewById(R.id.cvPhoneLogin);
         btnLogin =findViewById(R.id.btn_login);
         createrequest();
-        tvSignUp =findViewById(R.id.tv_signup);
+        tvSignUp =findViewById(R.id.tvSignUp);
 
         cvPhone_UserLoginActivity.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,7 +59,7 @@ public class UserLoginActivity extends AppCompatActivity {
         tvSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(getBaseContext(),Signup.class);
+                Intent intent=new Intent(getBaseContext(), SignUpActivity.class);
                 startActivity(intent);
             }
         });

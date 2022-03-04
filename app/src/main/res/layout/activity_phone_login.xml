@@ -97,7 +97,7 @@
         app:layout_constraintTop_toBottomOf="@+id/cvPhoneGoogle" />
 
     <TextView
-        android:id="@+id/tv_signup"
+        android:id="@+id/tvSignUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
