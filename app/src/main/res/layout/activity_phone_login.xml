@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".LoginActivity">
+    tools:context=".UserLoginActivity">
 
     <TextView
         android:id="@+id/textView"
@@ -112,7 +112,7 @@
         android:layout_width="351dp"
         android:layout_height="50dp"
         android:layout_marginTop="68dp"
-        android:id="@+id/cvGoogleLogin"
+        android:id="@+id/cvGoogle_PhoneLoginActivity"
         android:background="@color/white"
         app:cardCornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -150,12 +150,12 @@
         android:layout_width="351dp"
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
-        android:id="@+id/cvUserLogin"
+        android:id="@+id/cvUser_PhoneLoginActivity"
         android:background="@color/white"
         app:cardCornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cvGoogleLogin">
+        app:layout_constraintTop_toBottomOf="@+id/cvGoogle_PhoneLoginActivity">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"

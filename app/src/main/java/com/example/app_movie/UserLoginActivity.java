@@ -26,58 +26,58 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
 
-public class LoginActivity extends AppCompatActivity {
-    TextInputEditText email,password;
-    Button login;
-    TextView signup;
+public class UserLoginActivity extends AppCompatActivity {
+    TextInputEditText ipEmail, ipPassword;
+    Button btnLogin;
+    TextView tvSignUp;
     int RC_SIGN_IN=123;
-    CardView Google,phoneLoginForm;
+    CardView cvGoogle_UserLoginActivity, cvPhone_UserLoginActivity;
     GoogleSignInClient mGoogleSignInClient;
     private FirebaseAuth auth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         auth=FirebaseAuth.getInstance();
         if (auth.getCurrentUser()!=null){
-            loadui(auth.getUid());
+            loadUi(auth.getUid());
         }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        email=findViewById(R.id.tv_email);
-        password=findViewById(R.id.tv_passowrd);
-        Google=findViewById(R.id.cvGoogleLogin);
-        phoneLoginForm=findViewById(R.id.cvPhoneLogin);
-        login=findViewById(R.id.btn_login);
+        ipEmail =findViewById(R.id.tv_email);
+        ipPassword =findViewById(R.id.tv_passowrd);
+        cvGoogle_UserLoginActivity =findViewById(R.id.cvGoogleLogin);
+        cvPhone_UserLoginActivity =findViewById(R.id.cvPhoneLogin);
+        btnLogin =findViewById(R.id.btn_login);
         createrequest();
-        signup=findViewById(R.id.tv_signup);
+        tvSignUp =findViewById(R.id.tv_signup);
 
-        phoneLoginForm.setOnClickListener(new View.OnClickListener() {
+        cvPhone_UserLoginActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(LoginActivity.this,PhoneLoginActivity.class));
+                startActivity(new Intent(UserLoginActivity.this,PhoneLoginActivity.class));
             }
         });
-        signup.setOnClickListener(new View.OnClickListener() {
+        tvSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(getBaseContext(),Signup.class);
                 startActivity(intent);
             }
         });
-        Google.setOnClickListener(new View.OnClickListener() {
+        cvGoogle_UserLoginActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 signIn();
             }
         });
-        login.setOnClickListener(new View.OnClickListener() {
+        btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (email.getText().toString()!=""&&password.getText().toString()!=""||password.getText().toString()!=""||email.getText().toString()!=""){
+                if (ipEmail.getText().toString()!=""&& ipPassword.getText().toString()!=""|| ipPassword.getText().toString()!=""|| ipEmail.getText().toString()!=""){
                     Toast.makeText(getBaseContext(), "Enter",
                             Toast.LENGTH_SHORT).show();
                 }
                 else{
-                    auth.signInWithEmailAndPassword(email.getText().toString(),password.getText().toString()).addOnCompleteListener(LoginActivity.this, new OnCompleteListener<AuthResult>() {
+                    auth.signInWithEmailAndPassword(ipEmail.getText().toString(), ipPassword.getText().toString()).addOnCompleteListener(UserLoginActivity.this, new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
 
@@ -87,7 +87,7 @@ public class LoginActivity extends AppCompatActivity {
                                 FirebaseUser user = auth.getCurrentUser();
                                 Toast.makeText(getBaseContext(), "sucess.",
                                         Toast.LENGTH_SHORT).show();
-                                loadui(auth.getUid());
+                                loadUi(auth.getUid());
                             } else {
                                 // If sign in fails, display a message to the user.
                                 Toast.makeText(getBaseContext(), "Authentication failed.",
@@ -113,7 +113,7 @@ public class LoginActivity extends AppCompatActivity {
         startActivityForResult(signInIntent, RC_SIGN_IN);
     }
     @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
         // Result returned from launching the Intent from GoogleSignInApi.getSignInIntent(...);
@@ -130,7 +130,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         }
     }
-    void loadui(String id){
+    void loadUi(String id){
         Intent intent=new Intent(getBaseContext(),Main.class);
         startActivity(intent);
         finish();
@@ -146,7 +146,7 @@ public class LoginActivity extends AppCompatActivity {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d("checl", "signInWithCredential:success");
                             FirebaseUser user = auth.getCurrentUser();
-                            loadui(auth.getUid());
+                            loadUi(auth.getUid());
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w("check", "signInWithCredential:failure", task.getException());

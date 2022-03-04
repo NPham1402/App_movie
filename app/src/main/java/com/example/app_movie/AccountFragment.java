@@ -26,7 +26,7 @@ public class AccountFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 auth.signOut();
-                startActivity(new Intent(getActivity(), LoginActivity.class));
+                startActivity(new Intent(getActivity(), UserLoginActivity.class));
                 getActivity().finish();
             }
         });

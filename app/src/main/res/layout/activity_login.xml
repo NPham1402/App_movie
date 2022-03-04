@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".LoginActivity">
+    tools:context=".UserLoginActivity">
 
     <TextView
         android:id="@+id/textView"
@@ -30,7 +30,8 @@
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:textColorHint="@color/black"/>
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/tv_passowrd"
@@ -43,7 +44,8 @@
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:textColorHint="@color/black"/>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
