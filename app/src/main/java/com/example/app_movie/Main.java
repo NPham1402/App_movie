@@ -6,14 +6,15 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
+<<<<<<< HEAD
 import android.animation.TimeInterpolator;
 import android.content.Intent;
+=======
+>>>>>>> 034cc9bfc8fc6348933ad44ab0f830ff50d3908f
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.Button;
-import android.widget.Switch;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
@@ -27,7 +28,7 @@ public class Main extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        loadFragment(new fg_home());
+        loadFragment(new HomeFragment());
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(onNavigationItemSelectedListener);
         view_item=findViewById(R.id.find_toolbar);
@@ -45,17 +46,17 @@ public class Main extends AppCompatActivity {
             Fragment fragment;
             switch (item.getItemId()){
                 case R.id.home_navigation:
-                    fragment=new fg_home();
+                    fragment=new HomeFragment();
                     Log.e("Check",""+fragment.toString());
                     loadFragment(fragment);
                     return true;
                 case R.id.download_navigation:
-                    fragment=new fg_download();
+                    fragment=new DownloadFragment();
                     Log.e("Check",""+fragment.toString());
                     loadFragment(fragment);
                     return true;
                 case R.id.setings_navigation:
-                    fragment=new fg_setting();
+                    fragment=new AccountFragment();
                     Log.e("Check",""+fragment.toString());
                     loadFragment(fragment);
                     return true;

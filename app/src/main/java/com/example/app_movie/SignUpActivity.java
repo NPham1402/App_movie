@@ -17,7 +17,7 @@ import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-public class Signup extends AppCompatActivity {
+public class SignUpActivity extends AppCompatActivity {
     TextInputEditText email,password,confirmpassword;
     Button signup;
     FirebaseAuth auth;
@@ -55,12 +55,12 @@ public class Signup extends AppCompatActivity {
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                auth.createUserWithEmailAndPassword(email.getText().toString(),password.getText().toString()).addOnCompleteListener(Signup.this,new OnCompleteListener<AuthResult>() {
+                auth.createUserWithEmailAndPassword(email.getText().toString(),password.getText().toString()).addOnCompleteListener(SignUpActivity.this,new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             Toast.makeText(getBaseContext(),"sucess",Toast.LENGTH_SHORT);
-                            Intent intent=new Intent(getBaseContext(),Login.class);
+                            Intent intent=new Intent(getBaseContext(), UserLoginActivity.class);
                             startActivity(intent);
                         }
                         else{
