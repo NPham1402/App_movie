@@ -2,9 +2,11 @@ package com.example.app_movie;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.animation.TimeInterpolator;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -18,7 +20,9 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class Main extends AppCompatActivity {
     Button button;
+    androidx.appcompat.widget.Toolbar toolbar;
     FirebaseAuth firebaseAuth;
+    View view_item;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,7 +30,14 @@ public class Main extends AppCompatActivity {
         loadFragment(new fg_home());
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(onNavigationItemSelectedListener);
-
+        view_item=findViewById(R.id.find_toolbar);
+        view_item.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getBaseContext(),searcnview.class);
+                startActivity(intent);
+            }
+        });
     }
     BottomNavigationView.OnNavigationItemSelectedListener onNavigationItemSelectedListener=new BottomNavigationView.OnNavigationItemSelectedListener() {
         @Override
@@ -62,3 +73,4 @@ public class Main extends AppCompatActivity {
     }
 
 }
+

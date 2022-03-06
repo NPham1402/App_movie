@@ -1,5 +1,8 @@
 package com.example.app_movie;
 
+import android.content.ClipData;
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -27,6 +30,7 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
+import com.google.gson.Gson;
 
 import java.sql.Array;
 import java.util.ArrayList;
@@ -37,6 +41,7 @@ public class fg_home extends Fragment {
 FirebaseFirestore firebaseFirestore;
 ArrayList<Film_object>fo;
 film_adapter film_adapter;
+ClipData.Item item;
 RecyclerView recyclerView;
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
@@ -71,6 +76,12 @@ RecyclerView recyclerView;
                                 Log.e("count",fo.get(0).getUrl_img()+"");
                             }
                             film_adapter=new film_adapter(fo,getContext());
+                            SharedPreferences  mPrefs = getActivity().getSharedPreferences("oject", Context.MODE_PRIVATE);
+                            SharedPreferences.Editor prefsEditor = mPrefs.edit();
+                            Gson gson = new Gson();
+                            String json = gson.toJson(fo);
+                            prefsEditor.putString("MyObject", json);
+                            prefsEditor.commit();
                             LinearLayoutManager llm = new LinearLayoutManager(getContext());
                             llm.setOrientation(LinearLayoutManager.HORIZONTAL);
                             recyclerView.setLayoutManager(llm);

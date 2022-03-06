@@ -9,13 +9,15 @@
     <color name="white">#FFFFFFFF</color>
     <color name="deep_pink">#FF1493</color>
     <color name="pink">#FF3659</color>
-
+    <color name="red">#FF0000</color>
+    <color name="ripple_color">	#FF00FF</color>
+    <color name="transparent">#0000ffff</color>
     <color name="mau_nen">#e55b5b</color>
     <color name="xanhdam">#C9C9C9</color>> <!--nền-->
     <!-- <color name="xanhdam">#be6663</color>>--> <!--nền-->
     <color name="xam">#ffffff</color> <!--khung-->
     <color name="vang">#000000</color> <!--tên-->
-
+    <color name="light_white">#F5F5F5</color>
 
     <color name="preference_fallback_accent_color">#009900</color>
 
@@ -79,7 +81,6 @@
     <color name="negative_red">#e55b5b</color>
     <color name="positive_green">#009900</color>
     <color name="positive_green_dark">#006b00</color>
-    <color name="transparent">#00000000</color>
     <color name="translucent">#98000000</color>
     <color name="disabled_grey">#ffbdbdbd</color>
     <color name="unselected_grey">#98545454</color>

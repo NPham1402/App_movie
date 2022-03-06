@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.app_movie">
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,13 +13,23 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
         <activity
+            android:name=".play_film"
+            android:exported="false" />
+        <activity
+            android:name=".detail"
+            android:exported="false" />
+        <activity
+            android:name=".searcnview"
+            android:exported="false" />
+        <activity
             android:name=".Main"
             android:exported="false" />
         <activity
             android:name=".Signup"
             android:exported="false" />
-        <activity android:name=".PhoneLoginActivity"
-            android:exported="false"/>
+        <activity
+            android:name=".PhoneLoginActivity"
+            android:exported="false" />
         <activity
             android:name=".Login"
             android:exported="true">
