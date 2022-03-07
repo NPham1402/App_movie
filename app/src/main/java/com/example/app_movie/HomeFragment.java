@@ -40,7 +40,7 @@ RecyclerView recyclerView;
         super.onViewCreated(view, savedInstanceState);
         spinner=view.findViewById(R.id.the_loai);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getContext(),
-                R.array.the_loai_array, R.layout.spiner_item);
+                R.array.thể_loại, R.layout.spiner_item);
 // Specify the layout to use when the list of choices appears
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 // Apply the adapter to the spinner
@@ -88,6 +88,6 @@ RecyclerView recyclerView;
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_fg_home, container, false);
+        return inflater.inflate(R.layout.fragment_home, container, false);
     }
 }

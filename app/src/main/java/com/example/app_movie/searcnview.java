@@ -19,7 +19,7 @@ import java.util.Collection;
 public class searcnview extends AppCompatActivity {
     RecyclerView recyclerView;
     SearchView searchView;
-    ArrayList<Film_object> film_object;
+    ArrayList<FilmClass> film_object;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,7 +29,7 @@ public class searcnview extends AppCompatActivity {
         Gson gson = new Gson();
         SharedPreferences mPrefs =getSharedPreferences("oject", Context.MODE_PRIVATE);
         String json = mPrefs.getString("MyObject", "");
-        Type collectionType = new TypeToken<Collection<Film_object>>(){}.getType();
+        Type collectionType = new TypeToken<Collection<FilmClass>>(){}.getType();
         film_object = gson.fromJson(json,collectionType);
         LinearLayoutManager llm = new LinearLayoutManager(this);
         llm.setOrientation(LinearLayoutManager.VERTICAL);

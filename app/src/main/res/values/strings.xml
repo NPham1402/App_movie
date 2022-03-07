@@ -3,11 +3,45 @@
     <string name="login_screen_logo">Đăng nhập</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string-array name="the_loai_array">
+    <string-array name="thể_loại">
         <item>Hài</item>
         <item>Kinh dỊ</item>
         <item>Hành động</item>
         <item>Tình cảm</item>
+    </string-array>
+    <string-array name="genre_id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="text_size_id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="cỡ_chữ">
+        <item>nhỏ</item>
+        <item>vừa</item>
+        <item>lớn</item>
+    </string-array>
+    <string-array name="ngôn_ngữ">
+        <item>Tiếng Anh</item>
+        <item>Tiếng việt</item>
+    </string-array>
+    <string-array name="language">
+        <item>English</item>
+        <item>VietNamese</item>
+    </string-array>
+    <string-array name="text_size">
+        <item>small</item>
+        <item>medium</item>
+        <item>large</item>
+    </string-array>
+    <string-array name="genre">
+        <item>Comedy</item>
+        <item>Horror</item>
+        <item>Action</item>
+        <item>Romance</item>
     </string-array>
     <string name="long_text">thor 2 full movie download in hindi 720p thor 2 full movie download in hindi 720p thor 2 full movie download in hindi 720p thor 2 full movie download in hindi 720p</string>
     <string name="audio_sub">Audio &amp; Subtitle </string>
