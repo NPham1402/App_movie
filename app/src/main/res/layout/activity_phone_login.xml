@@ -4,19 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="@drawable/background_login"
+=======
+    android:background="@color/black"
+>>>>>>> 1b44f0ae57aff27d72da10e3611ed8ae508826bd
     tools:context=".UserLoginActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginTop="80dp"
         android:background="@drawable/botron"
         android:text="SIGN IN"
         android:textColor="@color/word"
         android:textSize="40dp"
         android:textStyle="bold"
+=======
+        android:layout_marginTop="36dp"
+        android:text="@string/login_screen_logo"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+>>>>>>> 1b44f0ae57aff27d72da10e3611ed8ae508826bd
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -25,14 +36,20 @@
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
+<<<<<<< HEAD
         android:backgroundTint="@color/rim"
         app:cardCornerRadius="80dp"
+=======
+        android:backgroundTint="@color/deep_pink"
+        app:cardCornerRadius="8dp"
+>>>>>>> 1b44f0ae57aff27d72da10e3611ed8ae508826bd
         app:layout_constraintTop_toBottomOf="@id/ipPhoneNo"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent">
         <Button
             android:layout_width="250dp"
             android:layout_height="match_parent"
+<<<<<<< HEAD
             android:text="continue"
             android:textSize="20dp"
             android:backgroundTint="@color/rim"
@@ -41,6 +58,12 @@
             android:clickable="true"
             android:focusable="true"
             android:foreground="?attr/selectableItemBackgroundBorderless"/>
+=======
+            android:text="Get Code"
+            android:backgroundTint="@color/deep_pink"
+            android:id="@+id/btnGetCode"
+            app:layout_constraintBottom_toTopOf="@id/ipOTP"/>
+>>>>>>> 1b44f0ae57aff27d72da10e3611ed8ae508826bd
     </androidx.cardview.widget.CardView>
 
 
@@ -49,20 +72,64 @@
         android:layout_width="333dp"
         android:layout_height="51dp"
         android:layout_marginTop="60dp"
+<<<<<<< HEAD
         android:background="@drawable/botron"
         android:textColor="@color/black"
         android:paddingLeft="15dp"
         android:hint="Phone Number"
         android:textColorHint="@color/divider"
+=======
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:hint="Phone Number"
+        android:textColorHint="@color/black"
+>>>>>>> 1b44f0ae57aff27d72da10e3611ed8ae508826bd
         android:inputType="phone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
+<<<<<<< HEAD
+=======
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ipOTP"
+        android:layout_width="333dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="36dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:hint="OTP"
+        android:textColorHint="@color/black"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView1" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvPhoneGoogle"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="@color/deep_pink"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ipOTP">
+
+        <Button
+            android:id="@+id/btnSendCode"
+            android:layout_width="246dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/deep_pink"
+            android:text="Log In" />
+    </androidx.cardview.widget.CardView>
+
+>>>>>>> 1b44f0ae57aff27d72da10e3611ed8ae508826bd
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginStart="70dp"
         android:layout_marginTop="28dp"
         android:text="Don't have account yet?"
@@ -70,11 +137,20 @@
         android:textColor="@color/word"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView1" />
+=======
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="28dp"
+        android:text="Don't have account yet?"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvPhoneGoogle" />
+>>>>>>> 1b44f0ae57aff27d72da10e3611ed8ae508826bd
 
     <TextView
         android:id="@+id/tvSignUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginStart="5dp"
         android:layout_marginTop="24dp"
         android:text="Sign up"
@@ -118,11 +194,56 @@
                     android:text="SIGN IN WITH GOOGLE"
                     android:textColor="@color/word"
                     android:textSize="12sp" />
+=======
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:text="Sign up"
+        android:textColor="@color/pink"
+        android:textSize="16dp"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/cvPhoneGoogle" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="351dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="68dp"
+        android:id="@+id/cvGoogle_PhoneLoginActivity"
+        android:background="@color/white"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvPhoneGoogle">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/google_logo"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:layout_height="match_parent">
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="14dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SIGN IN WITH GOOGLE"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textSize="15sp"/>
+>>>>>>> 1b44f0ae57aff27d72da10e3611ed8ae508826bd
             </LinearLayout>
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
+<<<<<<< HEAD
         android:layout_width="230dp"
         android:layout_height="45dp"
         android:layout_marginBottom="50dp"
@@ -141,6 +262,28 @@
             <ImageView
                 android:layout_width="35dp"
                 android:layout_height="35dp"
+=======
+        android:layout_width="351dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/cvUser_PhoneLoginActivity"
+        android:background="@color/white"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvGoogle_PhoneLoginActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="19dp"
+>>>>>>> 1b44f0ae57aff27d72da10e3611ed8ae508826bd
                 android:background="@drawable/ic_person" />
 
             <LinearLayout
@@ -149,6 +292,7 @@
                 android:background="@color/white"
                 android:orientation="vertical">
 
+<<<<<<< HEAD
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -156,6 +300,19 @@
                     android:text="SIGN IN WITH ACCOUNT"
                     android:textColor="@color/word"
                     android:textSize="12sp" />
+=======
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="14dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="LOG IN WITH YOUR ACCOUNT"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+>>>>>>> 1b44f0ae57aff27d72da10e3611ed8ae508826bd
             </LinearLayout>
 
         </LinearLayout>

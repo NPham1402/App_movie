@@ -243,10 +243,13 @@
     <color name="DarkBlue">#00008B</color>
     <color name="Navy">#000080</color>
     <color name="Black">#000000</color>
+<<<<<<< HEAD
     <color name="background">#FEF0D9</color>
     <color name="word">#5A2115</color>
     <color name="rim">#B86932</color>
     <color name="word_button">#962C03</color>
 
+=======
+>>>>>>> 1b44f0ae57aff27d72da10e3611ed8ae508826bd
 
 </resources>

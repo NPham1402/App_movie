@@ -2,6 +2,11 @@ package com.example.app_movie;
 
 import android.os.Bundle;
 
+<<<<<<< HEAD
+=======
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+>>>>>>> 1b44f0ae57aff27d72da10e3611ed8ae508826bd
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -15,4 +20,13 @@ public class DownloadFragment extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_download, container, false);
     }
+<<<<<<< HEAD
+=======
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+    }
+>>>>>>> 1b44f0ae57aff27d72da10e3611ed8ae508826bd
 }

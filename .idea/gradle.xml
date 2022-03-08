@@ -4,7 +4,11 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+<<<<<<< HEAD
         <option name="testRunner" value="PLATFORM" />
+=======
+        <option name="testRunner" value="GRADLE" />
+>>>>>>> 1b44f0ae57aff27d72da10e3611ed8ae508826bd
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
@@ -14,7 +18,10 @@
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
+<<<<<<< HEAD
         <option name="useQualifiedModuleNames" value="true" />
+=======
+>>>>>>> 1b44f0ae57aff27d72da10e3611ed8ae508826bd
       </GradleProjectSettings>
     </option>
   </component>
