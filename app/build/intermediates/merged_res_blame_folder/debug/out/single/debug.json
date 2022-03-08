@@ -1,0 +1,326 @@
+[
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_baseline_sort_24.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\ic_baseline_sort_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_search_icon.png.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\search_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_baseline_volume_mute_24.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\ic_baseline_volume_mute_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_searcnview.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\layout\\activity_searcnview.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\menu_navigation.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\menu\\navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_white_round.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\white_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\xml_preference_screen.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\xml\\preference_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_rewind.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\ic_rewind.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_baseline_volume_down_24.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\ic_baseline_volume_down_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_folder.png.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\folder.png"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\layout\\custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo.png.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_edit.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_delete.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_group_6.png.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xxxhdpi\\group_6.png"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_share.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\share.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_baseline_play_arrow_24.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\ic_baseline_play_arrow_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_botron.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable\\botron.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_baseline_keyboard_backspace_24.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\ic_baseline_keyboard_backspace_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_phone_login.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\layout\\activity_phone_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_baseline_volume_up_24.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\ic_baseline_volume_up_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_login.png.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable\\background_login.png"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_group_6.png.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-mdpi\\group_6.png"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_phone.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-ldpi\\ic_phone.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_person.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-ldpi\\ic_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_baseline_volume_off_24.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\ic_baseline_volume_off_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_properties.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\properties.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_netflix_unlock.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\netflix_unlock.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_netflix_lock_black.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\netflix_lock_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main2.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\layout\\activity_main2.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_search.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\layout\\item_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_more.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\more.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_download.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\layout\\fragment_download.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_group_6.png.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-ldpi\\group_6.png"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_share_link.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\share_link.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_iteam_film.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\layout\\iteam_film.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_setting.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_netflix_audio_subtitles.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\netflix_audio_subtitles.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_forward.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\ic_forward.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_account.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\layout\\fragment_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_group_6.png.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xxhdpi\\group_6.png"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo_playstore.png.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\logo_playstore.png"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_netflix_pause_button.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\netflix_pause_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_netflix_brightness_two.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\netflix_brightness_two.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_o_t_p.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\layout\\activity_o_t_p.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_netflix_brightness_three.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\netflix_brightness_three.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_netflix_speed.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\netflix_speed.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_menu_more.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\menu_more.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_play_film.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\layout\\activity_play_film.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_group_6.png.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-hdpi\\group_6.png"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_small_detail.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\layout\\item_small_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_custom_thumb.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\custom_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_netflix_brightness_one.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\netflix_brightness_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\menu_search.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\menu\\search.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_down_arrow.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\down_arrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detail.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\layout\\activity_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_netflix_brightness_four.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\netflix_brightness_four.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_group_6.png.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\group_6.png"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_spiner_item.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\layout\\spiner_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_rotation.xml.flat",
+        "source": "C:\\Users\\nguye\\AndroidStudioProjects\\App_movie-main\\app\\src\\main\\res\\drawable-xhdpi\\ic_rotation.xml"
+    }
+]
