@@ -4,7 +4,7 @@
         android:icon="@drawable/ic_baseline_home_24"
         android:title="Hone"/>
     <item android:id="@+id/download_navigation"
-        android:icon="@drawable/ic_baseline_cloud_download_24"
+        android:icon="@drawable/ic_cloud_download"
         android:title="Download"/>
     <item android:id="@+id/setings_navigation"
         android:icon="@drawable/ic_baseline_view_headline_24"

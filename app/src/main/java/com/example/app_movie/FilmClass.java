@@ -1,11 +1,12 @@
 package com.example.app_movie;
 
+import java.io.Serializable;
 import java.sql.Array;
 import java.sql.SQLRecoverableException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FilmClass {
+public class FilmClass implements Serializable {
     public String name;
     private String url_img;
     private String urlfilm;

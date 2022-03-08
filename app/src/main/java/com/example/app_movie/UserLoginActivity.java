@@ -53,7 +53,7 @@ public class UserLoginActivity extends AppCompatActivity {
         cvPhone_UserLoginActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(UserLoginActivity.this,PhoneLoginActivity.class));
+                startActivity(new Intent(UserLoginActivity.this, PhoneLoginActivity.class));
             }
         });
         tvSignUp.setOnClickListener(new View.OnClickListener() {

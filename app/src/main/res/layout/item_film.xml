@@ -3,14 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="150dp"
-
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
     android:layout_height="225dp">
 
     <ImageView
         android:id="@+id/view_film"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_cloud_download"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/imgDownload_itemFilm"/>
     <SeekBar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
