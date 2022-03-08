@@ -1,12 +1,27 @@
 package com.example.app_movie;
 
+<<<<<<< HEAD
 import java.io.Serializable;
+=======
+<<<<<<< HEAD
+=======
+import java.io.Serializable;
+>>>>>>> 1b44f0ae57aff27d72da10e3611ed8ae508826bd
+>>>>>>> a3d75f1ff628560243359a09491050c20d284a18
 import java.sql.Array;
 import java.sql.SQLRecoverableException;
 import java.util.ArrayList;
 import java.util.List;
 
+<<<<<<< HEAD
 public class FilmClass implements Serializable {
+=======
+<<<<<<< HEAD
+public class FilmClass {
+=======
+public class FilmClass implements Serializable {
+>>>>>>> 1b44f0ae57aff27d72da10e3611ed8ae508826bd
+>>>>>>> a3d75f1ff628560243359a09491050c20d284a18
     public String name;
     private String url_img;
     private String urlfilm;

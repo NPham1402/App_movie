@@ -12,6 +12,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        <activity android:name=".OTPActivity"></activity>
+=======
+>>>>>>> 1b44f0ae57aff27d72da10e3611ed8ae508826bd
+>>>>>>> a3d75f1ff628560243359a09491050c20d284a18
         <activity
             android:name=".play_film"
             android:exported="false" />
@@ -27,8 +34,19 @@
         <activity
             android:name=".SignUpActivity"
             android:exported="false" />
+<<<<<<< HEAD
         <activity android:name=".SettingActivity"
             android:exported="false"/>
+=======
+<<<<<<< HEAD
+        <activity
+            android:name=".SettingActivity"
+            android:exported="false" />
+=======
+        <activity android:name=".SettingActivity"
+            android:exported="false"/>
+>>>>>>> 1b44f0ae57aff27d72da10e3611ed8ae508826bd
+>>>>>>> a3d75f1ff628560243359a09491050c20d284a18
         <activity
             android:name=".PhoneLoginActivity"
             android:exported="false" />
